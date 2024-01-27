@@ -380,7 +380,7 @@ main .recent-orders a{
     border-radius: var(--border-radius-1);
 }
 
-.right-section .nav .profile{
+.right-section .nav .login{
     cursor: pointer;
     display: flex;
     gap: 2rem;
@@ -390,7 +390,7 @@ main .recent-orders a{
     background: var(--color-primary);
 }
 
-.right-section .nav .profile b {
+.right-section .nav .login b {
     color: white;
 }
 
@@ -525,15 +525,15 @@ main .recent-orders a{
     
 
     main .recent-orders {
-        width: 94%;
+        width: 20%;
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        margin: 2rem 0 0 0.8rem;
+        left: 15%;
+        margin: 3rem 0 0 0.8rem;
     }
 
     main .recent-orders table{
-        width: 83vw;
+        width: 45vw;
+       
     }
 
     main table thead tr th:last-child,
@@ -613,6 +613,7 @@ main .recent-orders a{
         position: relative;
         margin: 3rem 0 0 0;
         width: 100%;
+        left: 0%;
     }
 
     main .recent-orders table{
@@ -657,7 +658,7 @@ main .recent-orders a{
     .right-section .nav button span{
         font-size: 2rem;
     }
-    .right-section .nav .profile {
+    .right-section .nav .login {
         margin: 10px;
     }
 
@@ -668,5 +669,22 @@ main .recent-orders a{
         width: 4.4rem;
         left: 54%;
         position: absolute;
+    }
+    .right-section .nav .login {
+        margin: 10px;
+    }
+}
+@media screen and (max-width:500px){
+    .right-section .nav .login {
+        margin: 10px;
+        position: absolute;
+    }
+    .right-section .nav .dark-mode{
+        width: 4.4rem;
+        left: 50%;
+        position: absolute;
+    }
+    .right-section .user-profile img{
+        margin-left: 27%;
     }
 }
